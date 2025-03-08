@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Trang chủ"
+        android:id="@+id/mnu_trangchu"
+        android:icon="@drawable/baseline_home_24"
+        app:showAsAction="always"/>
+    <item android:title="Thanh Toán"
+        android:id="@+id/mnu_thanhtoan"
+        android:icon="@drawable/baseline_payment_24"
+        app:showAsAction="always"/>
+    <item android:title="Thông báo"
+        android:id="@+id/mnu_thongbao"
+        android:icon="@drawable/baseline_notifications_active_24"
+        app:showAsAction="always"/>
+    <item android:title="Cá nhân"
+        android:id="@+id/mnu_canhan"
+        android:icon="@drawable/baseline_person_24"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:background="@drawable/border_edit"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_hd"
+        android:layout_width="190sp"
+        android:layout_height="190sp"
+        android:src="@color/material_dynamic_primary80" />
+
+    <TextView
+        android:id="@+id/tv_diachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Địa chỉ"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvchoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiền phòng: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/tv_giatien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1800000"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_HoTenNguoiThue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Họ Tên"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_CCCDNguoiThue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CCCD"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/tv_SDTNguoiThue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SDT"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tháng : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/tv_thangthu"
+            android:layout_width="30sp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiền điện : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/tv_TienDien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiền nước : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/tv_TienNuoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tình trạng : "
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="25sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/tv_TinhTrangHD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa thanh toán"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày thanh toán : "
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="22sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/tv_NgayThanhToan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa thanh toán"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền :"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tvTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnThanhToan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanh Toán" />
+        <Button
+            android:id="@+id/btnTraTro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yêu câu trả trọ"
+            />
+    </LinearLayout>
+</LinearLayout>

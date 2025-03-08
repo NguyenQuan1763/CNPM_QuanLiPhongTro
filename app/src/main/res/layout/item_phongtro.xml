@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:background="@drawable/border_edit"
+  >
+
+
+    <ImageView
+        android:id="@+id/imgphongtro"
+        android:layout_width="160sp"
+        android:layout_height="160sp"
+        android:src="@color/material_dynamic_primary80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_report_image" />
+
+    <TextView
+        android:id="@+id/tvgioithieu"
+        android:gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Giới thiệu"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgphongtro"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_mota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        android:text="Mô tả"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvgioithieu"
+        app:layout_constraintStart_toStartOf="@+id/tvgioithieu"
+        app:layout_constraintTop_toBottomOf="@+id/tvgioithieu" />
+
+    <TextView
+        android:id="@+id/tv_diachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Địa chỉ"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_mota"
+        app:layout_constraintStart_toStartOf="@+id/tv_mota"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mota" />
+
+    <TextView
+        android:id="@+id/tv_giatien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1800000"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imgphongtro"
+        app:layout_constraintEnd_toEndOf="@+id/tv_diachi"
+        app:layout_constraintStart_toStartOf="@+id/tv_diachi"
+        app:layout_constraintTop_toBottomOf="@+id/tv_diachi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
